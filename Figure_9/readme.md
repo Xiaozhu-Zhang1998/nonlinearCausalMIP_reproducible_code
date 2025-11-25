@@ -1,21 +1,24 @@
 We will run 5 * 2 (data_structure * variance_scheme) combinations of experiment. For each one of them:
 
-- remember to specify the `data_name` and `equalvar` before running each file.
+- Remember to specify the `data_name` and `equalvar` before running each file.
 
-- run the file `generate.py`. This generates 30 datasets.
+- Run the file `generate.py`. This generates 30 datasets.
 
-- put the true edge set as `data_name.txt` under the ./dataset folder.
+- Put the true edge set as `data_name.txt` under the ./dataset folder.
 
-- run the file `R_baselines.R`. This generates 30 `.rds` files. For equal-variance scheme, bootstrapping results will be generated as well.
+- Run the file `R_baselines.R`. This generates 30 `.rds` files. For equal-variance scheme, bootstrapping results will be generated as well.
 
-- run the file `py_methods.py`. This generates 30 `.npy` files. For unequal-variance scheme, boostrapping results will be generated as well.
+- Run the file `py_methods.py`. This generates 30 `.npy` files. For unequal-variance scheme, boostrapping results will be generated as well.
 
-- run the file `collect_R.R` to collect simulation results from R. This generates a file `R_outputs.csv`.
+- Run the file `collect_R.R` to collect simulation results from R. This generates a file `R_outputs.csv`.
 
-- run the file `collect_py.py` to collect simulation results from python. This generates a file `Python_outputs.csv`.
+- Run the file `collect_py.py` to collect simulation results from python. This generates a file `Python_outputs.csv`.
 
+
+---
 
 Please save all files using the following directory hierarchy:
+
 ** variance scheme name (Equal, Unequal2)
 
 *** graph name (dsep, asia, bowling, inssmall, rain, cloud, funnel, galaxy, insurance, factors)
@@ -24,5 +27,7 @@ Please save all files using the following directory hierarchy:
 
 **** Python_outputs.csv
 
+
+---
 
 After finishing the above for all combinations, we generate figures by running the file `figure.R`, and generate tables by running the file `table.R`.

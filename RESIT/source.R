@@ -1,0 +1,5 @@
+source("./RESIT/fitting.R")
+source("./RESIT/ICML.R")
+source("./RESIT/indtestAll.R")
+source("./RESIT/indtestHsic.R")
+source("./RESIT/indtestMutualHsic.R")

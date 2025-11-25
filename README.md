@@ -5,6 +5,20 @@ We provide the 10 graph structures used in our experiments in the folder `graphS
 
 ---
 
+### Baseline methods
+
+- The folder `EqVarDAG`: See [On Causal Discovery with Equal Variance Assumption](https://arxiv.org/abs/1807.03419)
+
+- The folder `notears`: See [Learning Sparse Nonparametric DAGs](https://arxiv.org/abs/1909.13189)
+
+- The folder `RESIT`: See [Causal Discovery with Continuous Additive Noise Models](https://jmlr.org/papers/volume15/peters14a/peters14a.pdf)
+
+- The folder `NPVAR`: See [A Polynomial-time Algorithm for Learning Nonparametric Causal Graphs](https://arxiv.org/abs/2006.11970)
+
+- The folder `TAM_main`: A helper toolbox from [Efficient Bayesian network structure learning via local Markov boundary search](https://arxiv.org/abs/2110.06082)
+
+---
+
 Our implementation uses both R and Python. For each figure or table, please run the steps in order.
 
 

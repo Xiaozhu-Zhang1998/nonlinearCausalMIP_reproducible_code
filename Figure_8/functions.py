@@ -7,21 +7,20 @@ import patsy
 import random
 from celer import GroupLassoCV, GroupLasso
 from sklearn.preprocessing import StandardScaler
-
 from cdt.causality.graph import CAM
-from cdt.causality.graph import GES
 from cdt.causality.graph import CCDr
 import micodag as mic
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
-
-# put the folder `TAM_main` into this directory
-from TAM_main.utils import *
 import time
 import os
 import pickle
+
+
+# put the folder `TAM_main` into this directory
+from TAM_main.utils import *
 
 # put the folder `notears` into this directory
 from notears.nonlinear import *

@@ -3,8 +3,8 @@ The dataset `W_0.csv` is the post-processing data. See the file `processing.ipyn
 
 We implement the following in order:
 
-- run the file `R_baselines.R`. This generates a file `R_outputs.csv`. Bootstrapping results based on NPVAR will be generated as well.
+- Run the file `R_baselines.R`. This generates a file `R_outputs.csv`. Bootstrapping results based on NPVAR will be generated as well.
 
-- run the file `py_methods.py`. This generates a file `Python_outputs.csv`. Boostrapping results based on CAM will be generated as well.
+- Run the file `py_methods.py`. This generates a file `Python_outputs.csv`. Boostrapping results based on CAM will be generated as well.
 
-- run the file `result.R` to view the final results.
+- Run the file `result.R` to view the final results.

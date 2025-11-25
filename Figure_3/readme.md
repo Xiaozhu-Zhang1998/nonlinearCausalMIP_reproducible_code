@@ -1,7 +1,7 @@
-First, Run the file `generate.py`. This generates 30 datasets.
+First, run the file `generate.py`. This generates 30 datasets.
 
 
-For each sample size $n_0$, we implement the following in order:
+For each sample size `n_0`, we implement the following in order:
 
 - Specify `n0` and run the file `suff_stat.py` for each `m`. This generates 30 `.npy` files.
 
