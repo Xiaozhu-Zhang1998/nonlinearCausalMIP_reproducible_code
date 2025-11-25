@@ -3,6 +3,7 @@
 ### Graph structures
 We provide the 10 graph structures used in our experiments in the folder `graphStructures`. For each structure, both the true graph edge set and the moral edge set are included.
 
+---
 
 Our implementation uses both R and Python. For each figure or table, please run the steps in order.
 
